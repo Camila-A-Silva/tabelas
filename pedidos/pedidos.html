@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pedidos.css">
+    <title>Tabelas Formatadas com CSS</title>
+</head>
+<body>
+    <h1>Tabelas com CSS</h1>
+    <h2>Tabela 1: Produtos</h2>
+    <!-- TAG table - Início da tabela -->
+    <table class="tabela-1">
+        <!-- THEAD - Cabeçalho da tabela -->
+        <thead>
+            <!-- TR - Linha do cabeçalho da tabela -->
+            <tr>
+                <!-- TH - Conteúdo célula do cabeçalho -->
+                <th>Imagem</th>
+                <th>Nome do Produto</th>
+                <th>Preço</th>
+                <th>Comprar</th>
+            </tr>
+        </thead>
+        <!-- TBODY -Corpo da tabela -->
+         <tbody>
+            <!-- TR - Linha do corpo da tabela -->
+             <tr>
+                <td><img src="/produtos/img/bolsa preta, pequena, lateral,.jpg" width="50px" alt="Bolça preta grande lateral"></td>
+                <td>Bolsa Preta</td>
+                <td>R$ 199,90</td>
+                <td><button>Comprar</button></td>
+             </tr>
+             <tr>
+                <td><img src="/produtos/img/fone grande azul.jpg" width="50px" alt="Fone de ouvido azul"></td>
+                <td>Fone de ouvido</td>
+                <td>R$ 159,90</td>
+                <td><button>Comprar</button></td>
+             </tr>
+             <tr>
+                <td><img src="/produtos/img/tênis branco com detalhes pretos.jpg" width="50px" alt="Tênis branco com detalhes preto"></td>
+                <td>Tênis Branco</td>
+                <td>R$ 229,90</td>
+                <td><button>Comprar</button></td>
+             </tr>
+         </tbody>
+    </table>
+
+
+    <h2>Tabela 2: Histórico de Pedidos</h2>
+    <table class="tabela-2">
+        <thead>
+             <!-- TR - Linha do cabeçalho da tabela -->
+            <tr>
+                <!-- TH - Conteúdo célula do cabeçalho -->
+                <th>Número de Pedido</th>
+                <th>Data</th>
+                <th>Valor Total</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>12345</td>
+                <td>2024-04-20</td>
+                <td>R$ 199,90</td>
+                <td class="green">Entregue</td>
+            </tr>
+            <tr>
+                <td>56789</td>
+                <td>2024-04-15</td>
+                <td>R$ 159,90</td>
+                <td class="yellow">Em Processamento</td>
+            </tr>
+            <tr>
+                <td>09876</td>
+                <td>2024-04-10</td>
+                <td>R$ 229,90</td>
+                <td class="red">Aguardando Pagamento</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

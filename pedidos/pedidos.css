@@ -1,0 +1,31 @@
+table, th, td{
+    border: solid 2px #000000;
+    border-collapse: collapse;
+    padding: 12px;
+}
+
+th{
+    background: #a9a9a9;
+    text-align: center;
+}
+
+.green{
+    color: green;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.red{
+    color: red;
+}
+
+table{
+    width: 50%;
+    margin: 0 auto;
+}
+
+h1, h2{
+    text-align: center;
+}
