@@ -1,0 +1,24 @@
+{
+  "name": "tabelas",
+  "version": "1.0.0",
+  "description": "Estudos sobre tabelas com HTML e CSS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Camila-A-Silva/tabelas.git"
+  },
+  "keywords": [
+    "tabela",
+    "css",
+    "html"
+  ],
+  "author": "Camila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Camila-A-Silva/tabelas/issues"
+  },
+  "homepage": "https://github.com/Camila-A-Silva/tabelas#readme"
+}
